@@ -504,8 +504,6 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
-    .site-navbar .site-navigation .site-menu .active {
-      color: ##ff8b00 !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -515,7 +513,7 @@ h1, h2, h3, h4, h5,
         margin-left: 15px;
         margin-right: 15px;
         padding: 20px 0px;
-        color: #fff !important;
+        color: #ff8b00 !important;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -851,7 +849,7 @@ h1, h2, h3, h4, h5,
 
 .block-heading-1 h2 {
   font-size: 3rem;
-  color: #ff8b00; }
+  color: #5CE0E8; }
 
 .block-feature-1-wrap {
   margin-bottom: 7rem; }
@@ -1233,7 +1231,7 @@ h1, h2, h3, h4, h5,
     z-index: -1; }
   .block__35630 .icon > span {
     font-size: 3rem;
-    color: #5CE0E8; }
+    color: #ff8b00; }
 
 .block__35630 h3 {
   color: #000;
