@@ -1272,6 +1272,15 @@ h1, h2, h3, h4, h5,
   .pricing ul li {
     margin-bottom: 20px; }
 
+  .rectangulo{
+    background: rgba(0, 0, 0, 0.6) /* Black background with 30% opacity */;
+    padding: 1rem;
+  }
+
+  @media (max-width: 991.98px) {
+    .site-section {
+      background-color: unset;} }
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
