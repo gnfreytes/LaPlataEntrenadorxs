@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>APLATEBA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="images\logo-negro-01.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts\flaticonnuevo\font\flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<!-- Inico-->
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Cargando...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+<!--NAV-->
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+
+
+          <div class="site-logo">
+            <a href="index.html" class="text-black"><span class="text-primary">La Plata Entrenadorxs</a>
+            </div>
+
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="index.html#home-section" class="nav-link">Inicio</a></li>
+                  <li><a href="index.html#services-section" class="nav-link">Asociación</a></li>
+
+
+                  <li class="has-children">
+                    <a href="#" class="nav-link">Áreas</a>
+                    <ul class="dropdown arrow-top">
+                      <li><a href="capacitacion.html" class="nav-link">Capacitación</a></li>
+                      <li><a href="competencia.html" class="nav-link">Competencia</a></li>
+                      <li class="has-children">
+                        <a href="#">Otras</a>
+                        <ul class="dropdown">
+                          <li><a href="#">Comunicación</a></li>
+                          <li><a href="#">Administrativa</a></li>
+                          <li><a href="#">Legal</a></li>
+                          <li><a href="#">Laboral</a></li>
+                          <li><a href="#">Ética</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <li><a href="social.html" class="nav-link">Social</a></li>
+                  <li><a href="index.html#blog-section" class="nav-link">Noticias</a></li>
+                  <li><a href="index.html#contact-section" class="nav-link">Contactanos</a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+        </div>
+
+      </header>
+<!--NAV-->
+<!--Formulario - intro-->
+      <div class="formulario-asociar" id="formulario-asociar" data-aos="fade">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-9 text-center">
+              <div class="block-heading-1" data-aos="fade-up" data-aos-delay="">
+                <h2>Formulario de asociación</h2>
+                <p>Completando este formulario podrás ingresar como socio de la Asociación Plantese de Técnicos de
+                   Básquetbol.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+<!--Formulario - intro-->
+
+<!-- Formulario - Datos personales-->
+       <form>
+        <div class="container">
+            <div class="block-heading-1" data-aos="fade-up" data-aos-delay="100">
+              <h4 class="text-primary mt-3 mb-3">Datos personales</h4>
+            <div class="row mt-4">
+                <div class="form-group col-md-6 mb-3">
+                  <label for="example-text-input">Nombre completo</label>
+                  <input type="text" class="form-control" placeholder="" required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                  <small>*Completar según la información del Documento Nacional de Identidad. Respetar las mayúsculas y espacios.</small>
+                </div>
+                <div class="form-group col-md-6 mb-3">
+                  <label for="example-text-input">Apellido</label>
+                  <input type="text" class="form-control" placeholder="" required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                  <small>*Completar según la información del Documento Nacional de Identidad. Respetar las mayúsculas y espacios.</small>
+                </div>
+              <div class="col-md-6 mb-3">
+                <div class="form-group">
+                  <label for="example-number-input">Documento Nacional de Identidad (DNI)</label>
+                  <input class="form-control" type="number" value="" min="4000000" id="example-number-input" required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <div class="form-group">
+                  <label for="example-date-input">Fecha de Nacimiento</label>
+                  <input class="form-control" type="date" value="aaaa-mm-dd" id="example-date-input" required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-4 mb-3">
+                <label for="inputCountry">País de origen</label>
+                <select id="inputCountry" class="form-control" required>
+                  <option selected disabled value="">Seleccionar...</option>
+                  <option>Argentina</option>
+                  <option>Bolivia</option>
+                  <option>Brasil</option>
+                  <option>Chile</option>
+                  <option>Paraguay</option>
+                  <option>Uruguay</option>
+                  <option>Otro...</option>
+                  </select>
+                  <div class="valid-feedback">
+                    Seleccionado.
+                  </div>
+                  <div class="invalid-feedback">
+                    Falta seleccionar.
+                  </div>
+                </div>
+                  <div class="form-group col-md-4 mb-3">
+                    <label for="inputState">Provincia de origen</label>
+                    <select id="inputState" class="form-control" required>
+                      <option selected disabled value="">Seleccionar...</option>
+                      <option>----</option>
+                      <option>Buenos Aires</option>
+                      <option>Catamarca</option>
+                      <option>Chaco</option>
+                      <option>Chubut</option>
+                      <option>Córdoba</option>
+                      <option>Corrientes</option>
+                      <option>Entre Rios</option>
+                      <option>Formosa</option>
+                      <option>Jujuy</option>
+                      <option>La Pampa</option>
+                      <option>La Riojo</option>
+                      <option>Mendoza</option>
+                      <option>Misiones</option>
+                      <option>Neuquén</option>
+                      <option>Río Negro</option>
+                      <option>Salta</option>
+                      <option>San Juan</option>
+                      <option>Santa Cruz</option>
+                      <option>Santa Fe</option>
+                      <option>Santiago del Estero</option>
+                      <option>Tierra del Fuego</option>
+                      <option>Tucumán</option>
+                    </select>
+                    <div class="valid-feedback">
+                      Seleccionado.
+                    </div>
+                    <div class="invalid-feedback">
+                      Falta seleccionar.
+                    </div>
+                </div>
+                <div class=" form-group col-md-4 mb-3">
+                  <label for="inputCity">Localidad de origen</label>
+                  <input type="text" class="form-control" id="inputCity" required>
+                  <div class="valid-feedback">
+                    Seleccionado.
+                  </div>
+                  <div class="invalid-feedback">
+                    Falta seleccionar.
+                  </div>
+                </div>
+              <div class="form-group col-md-4 mb-3">
+                  <label for="inputAddress">Dirección donde reside actualmente</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Calle, número." required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                </div>
+              <div class="form-group col-md-3 mb-3">
+                <label for="inputCity">Localidad</label>
+                <input type="text" class="form-control" id="inputCity" required>
+                <div class="valid-feedback">
+                  Completo.
+                </div>
+                <div class="invalid-feedback">
+                  Completar este item.
+                </div>
+              </div>
+              <div class="form-group col-md-2 mb-3">
+                <label for="inputZip">Código postal</label>
+                <input type="text" class="form-control" id="inputZip" required>
+                <div class="valid-feedback">
+                  Completo.
+                </div>
+                <div class="invalid-feedback">
+                  Completar este item.
+                </div>
+              </div>
+             </div>
+  <!-- Formulario - Datos personales-->
+
+  <!-- Formulario - Datos de contacto-->
+            <h4 class="text-primary mt-3 mb-3">Datos de contacto</h4>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@mail.com" required>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <div class="form-group">
+                  <label for="phone">Número de celular</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                  <small>*Completar sin "0" ni "15".</small>
+                  <div class="valid-feedback">
+                    Completo.
+                  </div>
+                  <div class="invalid-feedback">
+                    Completar este item.
+                  </div>
+                </div>
+              </div>
+            </div>
+  <!-- Formulario - Datos de contacto-->
+
+  <!-- Formulario - Datos laborales-->
+          <h4 class="text-primary mb-3">Datos Laborales</h4>
+          <div class="row">
+            <div class="form-group col-md-4 mb-3">
+              <label for="exampleFormControlSelect1">¿Se encuentra trabajando actualmente?</label>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" required>
+                <label class="custom-control-label" for="customRadio1">Si</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" required>
+                <label class="custom-control-label" for="customRadio2">No</label>
+              </div>
+              <div class="valid-feedback">
+                Seleccionado.
+              </div>
+              <div class="invalid-feedback">
+                Falta seleccionar.
+              </div>
+            </div>
+            <div class="form-group col-md-3 mb-3">
+              <label for="exampleFormControlSelect1">Nivel ENEBA:</label>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                  <option selected disabled value="">Seleccionar...</option>
+                  <option>Cursando Nivel 1</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <div class="valid-feedback">
+                  Seleccionado.
+                </div>
+                <div class="invalid-feedback">
+                  Falta seleccionar.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                  <div class="form-group col-md-4 mb-3">
+                    <label for="exampleFormControlSelect1">Club/es en el/los que se desempeña:</label>
+                      <select class="form-control" id="exampleFormControlSelect1" required>
+                        <option selected disabled value="">Seleccionar...</option>
+                        <option>Alumni</option>
+                        <option>Asociación Mayo</option>
+                        <option>Astillero</option>
+                        <option>Atenas</option>
+                        <option>Atlético Chascomús</option>
+                        <option>Banco Provincia</option>
+                        <option>Capital Chica</option>
+                        <option>CEyE</option>
+                        <option>C.F Gonnet</option>
+                        <option>C.F Los Hornos</option>
+                        <option>Chacarita Platense</option>
+                        <option>Círculo Marchigiano</option>
+                        <option>Círculo Penitenciario</option>
+                        <option>Círculo Policial</option>
+                        <option>Comunidad Rural</option>
+                        <option>Deportivo La Plata</option>
+                        <option>Deportivo Villa Elisa</option>
+                        <option>Estrella de Berisso</option>
+                        <option>Estudiantes</option>
+                        <option>Gimnasia</option>
+                        <option>Hogar Social</option>
+                        <option>Juventud</option>
+                        <option>Macabi</option>
+                        <option>Meridiano V</option>
+                        <option>Náutico Ensenada</option>
+                        <option>Platense</option>
+                        <option>Reconquista</option>
+                        <option>Sud América</option>
+                        <option>Tolosano</option>
+                        <option>Unidos del Dique</option>
+                        <option>Unión Vecinal</option>
+                        <option>Universal</option>
+                        <option>Universitario</option>
+                        <option>UNLP</option>
+                        <option>UTN</option>
+                        <option>Villa Elvira</option>
+                        <option>Villa San Carlos</option>
+                        <option>Otro...</option>
+                      </select>
+                      <div class="valid-feedback">
+                        Seleccionado.
+                      </div>
+                      <div class="invalid-feedback">
+                        Falta seleccionar.
+                      </div>
+                    </div>
+                    <div class="form-group col-md-4 mb-3">
+                      <label for="exampleFormControlSelect1">Rol/es en el/los que se desempeña:</label>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
+                          <option selected disabled value="">Seleccionar...</option>
+                          <option>Coordinador/a</option>
+                          <option>Entrenador/a principal</option>
+                          <option>Entrenador/a asistente</option>
+                          <option>Monitor/a</option>
+                          <option>Otro...</option>
+                        </select>
+                        <div class="valid-feedback">
+                          Seleccionado.
+                        </div>
+                        <div class="invalid-feedback">
+                          Falta seleccionar.
+                        </div>
+                      </div>
+                      <div class="form-group col-md-4 mb-3">
+                        <label for="exampleFormControlSelect1">Categoría/s en la/s que participa:</label>
+                          <select class="form-control" id="exampleFormControlSelect1" required>
+                            <option selected disabled value="">Seleccionar...</option>
+                            <option>Escuela</option>
+                            <option>Pre-mini</option>
+                            <option>Mini</option>
+                            <option>U-14</option>
+                            <option>U-16</option>
+                            <option>U-18</option>
+                            <option>U-20</option>
+                            <option>U-22</option>
+                            <option>Primera Masculino</option>
+                            <option>Primera Femenino</option>
+                            <option>Máxi Básquet</option>
+                          </select>
+                          <div class="valid-feedback">
+                            Seleccionado.
+                          </div>
+                          <div class="invalid-feedback">
+                            Falta seleccionar.
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+
+
+<!-- Formulario - Datos laborales-->
+
+<!-- Formulario - confirmación-->
+          <div class="form-group mt-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                He releído la información brindada y acepto el envío del formulario.
+              </label>
+            <div class="invalid-feedback">
+            Confirmar antes de enviar.
+            </div>
+            </div>
+          </div>
+          <button class="btn btn-primary mb-3" type="submit">Enviar formulario</button>
+        </div>
+      </form>
+<!-- Formulario - confirmación-->
+
+<!-- Footer-->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4">APLATEBA</h2>
+                <p>Asociación Platense de Técnicos de Básquet. Integrada por y para lxs entrenadorxs de nuestra región. Pensando
+                   en la mejora de las condiciones laborales, deportivas y académicas.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Links de interés</h2>
+                <ul class="list-unstyled">
+                  <li><a href="https://www.instagram.com/eneba.lp/">ENEBA La Plata</a></li>
+                  <li><a href="http://www.enebar.com.ar/">ENEBA Nacional</a></li>
+                  <li><a href="https://entrenadoresdebasquet.com/">ATEBARA</a></li>
+                  <li><a href="http://www.apdeb.com.ar/">APdeB</a></li>
+                  <li><a href="http://enebapadron.fahce.unlp.edu.ar/app.php/Main/Padron">Padrón de entrenadorxs</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+
+            <div class="mb-5">
+              <h2 class="footer-heading mb-2">suscribite para más novedades</h2>
+              <p>Actualidad, cursos, información general, reuniones, nueva bibliografía y mucho más.</p>
+              <form action="#" method="post" class="footer-suscribe-form">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="ejemplo@mail.com" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Suscribirse</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <h2 class="footer-heading mb-4">Seguinos</h2>
+              <a href="https://www.instagram.com/laplataentrenadorxs/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.youtube.com/channel/UC_EDLhmuSzlzak06_t4rO3Q" class="pl-3 pr-3"><span class="icon-youtube"></span></a>
+              <a href="https://www.facebook.com/groups/1460439380925913" class="pl-3 pr-3"><span class="icon-facebook"></span>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </small></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+<!-- Footer-->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
