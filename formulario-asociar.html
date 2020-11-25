@@ -110,14 +110,14 @@
 <!--Formulario - intro-->
 
 <!-- Formulario - Datos personales-->
-       <form action="https://usebasin.com/f/9e4480832ec0">
+       <form action="https://usebasin.com/f/c1c7a164146a" method="post">
         <div class="container">
             <div class="block-heading-1" data-aos="fade-up" data-aos-delay="100">
               <h4 class="text-primary mt-3 mb-3">Datos personales</h4>
             <div class="row mt-4">
                 <div class="form-group col-md-6 mb-3">
                   <label for="example-text-input">Nombre</label>
-                  <input type="text" class="form-control" name="nombre" placeholder="" required>
+                  <input type="text" class="form-control" name="Nombre" placeholder="" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="form-group col-md-6 mb-3">
                   <label for="example-text-input">Apellido</label>
-                  <input type="text" class="form-control" name="apellido" placeholder="" required>
+                  <input type="text" class="form-control" name="Apellido" placeholder="" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -140,7 +140,7 @@
               <div class="col-md-6 mb-3">
                 <div class="form-group">
                   <label for="example-number-input">Documento Nacional de Identidad (DNI)</label>
-                  <input class="form-control" type="number" name="documento" value="" min="4000000" id="example-number-input" required>
+                  <input class="form-control" type="number" name="Documento" value="" min="4000000" id="example-number-input" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -152,7 +152,7 @@
               <div class="col-md-3 mb-3">
                 <div class="form-group">
                   <label for="example-date-input">Fecha de Nacimiento</label>
-                  <input class="form-control" type="date" value="aaaa-mm-dd" id="example-date-input" required>
+                  <input class="form-control" type="date" value="aaaa-mm-dd" id="example-date-input" name="Fecha de nacimiento" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -165,7 +165,7 @@
             <div class="row">
               <div class="form-group col-md-4 mb-3">
                 <label for="inputCountry">País de origen</label>
-                <select id="inputCountry" class="form-control" required>
+                <select id="inputCountry" class="form-control" name="País de origen" required>
                   <option selected disabled value="">Seleccionar...</option>
                   <option>Argentina</option>
                   <option>Bolivia</option>
@@ -184,7 +184,7 @@
                 </div>
                   <div class="form-group col-md-4 mb-3">
                     <label for="inputState">Provincia de origen</label>
-                    <select id="inputState" class="form-control" required>
+                    <select id="inputState" class="form-control" name="Provincia de origen" required>
                       <option selected disabled value="">Seleccionar...</option>
                       <option>----</option>
                       <option>Buenos Aires</option>
@@ -219,7 +219,7 @@
                 </div>
                 <div class=" form-group col-md-4 mb-3">
                   <label for="inputCity">Localidad de origen</label>
-                  <input type="text" class="form-control" id="inputCity" required>
+                  <input type="text" class="form-control" id="inputCity" name="Localidad de origen" required>
                   <div class="valid-feedback">
                     Seleccionado.
                   </div>
@@ -229,7 +229,7 @@
                 </div>
               <div class="form-group col-md-4 mb-3">
                   <label for="inputAddress">Dirección donde reside actualmente</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Calle, número." required>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Calle, número." name="Dirección" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -239,7 +239,7 @@
                 </div>
               <div class="form-group col-md-3 mb-3">
                 <label for="inputCity">Localidad</label>
-                <input type="text" class="form-control" id="inputCity" required>
+                <input type="text" class="form-control" id="inputCity" name="Localidad" required>
                 <div class="valid-feedback">
                   Completo.
                 </div>
@@ -249,7 +249,7 @@
               </div>
               <div class="form-group col-md-2 mb-3">
                 <label for="inputZip">Código postal</label>
-                <input type="text" class="form-control" id="inputZip" required>
+                <input type="text" class="form-control" id="inputZip" name="Código postal" required>
                 <div class="valid-feedback">
                   Completo.
                 </div>
@@ -266,7 +266,7 @@
               <div class="col-md-3 mb-3">
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Mail</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@mail.com" required>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@mail.com" name="Email" required>
                   <div class="valid-feedback">
                     Completo.
                   </div>
@@ -278,7 +278,7 @@
               <div class="col-md-3 mb-3">
                 <div class="form-group">
                   <label for="phone">Número de celular</label>
-                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                  <input type="tel" class="form-control" id="phone" name="Número de celular" required>
                   <small>*Completar sin "0" ni "15".</small>
                   <div class="valid-feedback">
                     Completo.
@@ -297,11 +297,11 @@
             <div class="form-group col-md-4 mb-3">
               <label for="exampleFormControlSelect1">¿Se encuentra trabajando actualmente?</label>
               <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" required>
+                <input type="radio" id="customRadio1" name="Trabaja actualmente" class="custom-control-input" required>
                 <label class="custom-control-label" for="customRadio1">Si</label>
               </div>
               <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" required>
+                <input type="radio" id="customRadio2" name="Trabaja actualmente" class="custom-control-input" required>
                 <label class="custom-control-label" for="customRadio2">No</label>
               </div>
               <div class="valid-feedback">
@@ -313,7 +313,7 @@
             </div>
             <div class="form-group col-md-3 mb-3">
               <label for="exampleFormControlSelect1">Nivel ENEBA:</label>
-                <select class="form-control" id="exampleFormControlSelect1" required>
+                <select class="form-control" id="exampleFormControlSelect1" name="Nivel ENEBA" required>
                   <option selected disabled value="">Seleccionar...</option>
                   <option>Cursando Nivel 1</option>
                   <option>1</option>
@@ -332,7 +332,7 @@
             <div class="row">
                   <div class="form-group col-md-4 mb-3">
                     <label for="exampleFormControlSelect1">Club/es en el/los que se desempeña:</label>
-                      <select class="form-control" id="exampleFormControlSelect1" required>
+                      <select class="form-control" id="exampleFormControlSelect1" name="Club/es" required>
                         <option selected disabled value="">Seleccionar...</option>
                         <option>Alumni</option>
                         <option>Asociación Mayo</option>
@@ -382,7 +382,7 @@
                     </div>
                     <div class="form-group col-md-4 mb-3">
                       <label for="exampleFormControlSelect1">Rol/es en el/los que se desempeña:</label>
-                        <select class="form-control" id="exampleFormControlSelect1" required>
+                        <select class="form-control" id="exampleFormControlSelect1" name="Rol/es" required>
                           <option selected disabled value="">Seleccionar...</option>
                           <option>Coordinador/a</option>
                           <option>Entrenador/a principal</option>
@@ -399,7 +399,7 @@
                       </div>
                       <div class="form-group col-md-4 mb-3">
                         <label for="exampleFormControlSelect1">Categoría/s en la/s que participa:</label>
-                          <select class="form-control" id="exampleFormControlSelect1" required>
+                          <select class="form-control" id="exampleFormControlSelect1" name="Categoría/s" required>
                             <option selected disabled value="">Seleccionar...</option>
                             <option>Escuela</option>
                             <option>Pre-mini</option>
