@@ -1,0 +1,106 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/11/2020 18:52
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+        font-size: 50px;
+font-style: normal;
+margin-left: 10px;
+}
+
+.flaticon-libro-educativo:before { content: "\f100"; }
+.flaticon-estudiante:before { content: "\f101"; }
+.flaticon-mesa:before { content: "\f102"; }
+.flaticon-patio-de-recreo:before { content: "\f103"; }
+.flaticon-buscar:before { content: "\f104"; }
+.flaticon-presentacion:before { content: "\f105"; }
+.flaticon-equipo:before { content: "\f106"; }
+.flaticon-certificado:before { content: "\f107"; }
+.flaticon-equipo-1:before { content: "\f108"; }
+.flaticon-elearning:before { content: "\f109"; }
+.flaticon-baloncesto:before { content: "\f10a"; }
+.flaticon-baloncesto-1:before { content: "\f10b"; }
+.flaticon-baloncesto-2:before { content: "\f10c"; }
+.flaticon-pelota-de-baloncesto:before { content: "\f10d"; }
+.flaticon-playoff:before { content: "\f10e"; }
+.flaticon-baloncesto-3:before { content: "\f10f"; }
+.flaticon-hablar:before { content: "\f110"; }
+.flaticon-tactica:before { content: "\f111"; }
+.flaticon-television:before { content: "\f112"; }
+.flaticon-pelota-de-baloncesto-1:before { content: "\f113"; }
+.flaticon-entradas:before { content: "\f114"; }
+.flaticon-baloncesto-4:before { content: "\f115"; }
+.flaticon-jugadores-de-baloncesto:before { content: "\f116"; }
+.flaticon-jugador-de-baloncesto:before { content: "\f117"; }
+.flaticon-baloncesto-5:before { content: "\f118"; }
+.flaticon-baloncesto-6:before { content: "\f119"; }
+.flaticon-baloncesto-7:before { content: "\f11a"; }
+.flaticon-jugador-de-baloncesto-1:before { content: "\f11b"; }
+.flaticon-baloncesto-8:before { content: "\f11c"; }
+.flaticon-jugador-de-baloncesto-2:before { content: "\f11d"; }
+.flaticon-cancha-de-baloncesto-1:before { content: "\f11e"; }
+.flaticon-jugador-de-baloncesto-3:before { content: "\f11f"; }
+.flaticon-baloncesto-9:before { content: "\f120"; }
+.flaticon-baloncesto-10:before { content: "\f121"; }
+.flaticon-jugador-de-baloncesto-4:before { content: "\f122"; }
+.flaticon-jugador-de-baloncesto-5:before { content: "\f123"; }
+.flaticon-aro:before { content: "\f124"; }
+.flaticon-bolsa-de-deporte:before { content: "\f125"; }
+.flaticon-hablar-1:before { content: "\f126"; }
+.flaticon-estadio:before { content: "\f127"; }
+.flaticon-hora:before { content: "\f128"; }
+.flaticon-ubicacion:before { content: "\f129"; }
+.flaticon-television-1:before { content: "\f12a"; }
+.flaticon-sitio-web:before { content: "\f12b"; }
+.flaticon-uniforme:before { content: "\f12c"; }
+.flaticon-aplicacion:before { content: "\f12d"; }
+.flaticon-al-vapor:before { content: "\f12e"; }
+.flaticon-jugador:before { content: "\f12f"; }
+.flaticon-educacion:before { content: "\f130"; }
+.flaticon-equipo-2:before { content: "\f131"; }
+.flaticon-calendario:before { content: "\f132"; }
+.flaticon-baloncesto-13:before { content: "\f133"; }
+.flaticon-jugador-de-baloncesto-6:before { content: "\f134"; }
+.flaticon-jugador-de-baloncesto-7:before { content: "\f135"; }
+.flaticon-baloncesto-14:before { content: "\f136"; }
+.flaticon-pelota-de-baloncesto-3:before { content: "\f137"; }
+.flaticon-baloncesto-11:before { content: "\f138"; }
+.flaticon-cancha-de-baloncesto-2:before { content: "\f139"; }
+.flaticon-baloncesto-15:before { content: "\f13a"; }
+.flaticon-baloncesto-16:before { content: "\f13b"; }
+.flaticon-cancha-de-baloncesto:before { content: "\f13c"; }
+.flaticon-jugador-de-baloncesto-8:before { content: "\f13d"; }
+.flaticon-pelota-de-baloncesto-2:before { content: "\f13e"; }
+.flaticon-pizarron:before { content: "\f13f"; }
+.flaticon-educacion-1:before { content: "\f140"; }
+.flaticon-premio:before { content: "\f141"; }
+.flaticon-burbuja-de-dialogo:before { content: "\f142"; }
+.flaticon-boleto:before { content: "\f143"; }
+.flaticon-trofeo:before { content: "\f144"; }
+.flaticon-portapapeles:before { content: "\f145"; }
+.flaticon-pelota:before { content: "\f146"; }
+.flaticon-mente:before { content: "\f147"; }
+.flaticon-rueda-dentada:before { content: "\f148"; }
+.flaticon-baloncesto-12:before { content: "\f149"; }

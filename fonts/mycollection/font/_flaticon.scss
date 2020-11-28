@@ -1,0 +1,188 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 28/11/2020 18:52
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-libro-educativo:before { content: "\f100"; }
+.flaticon-estudiante:before { content: "\f101"; }
+.flaticon-mesa:before { content: "\f102"; }
+.flaticon-patio-de-recreo:before { content: "\f103"; }
+.flaticon-buscar:before { content: "\f104"; }
+.flaticon-presentacion:before { content: "\f105"; }
+.flaticon-equipo:before { content: "\f106"; }
+.flaticon-certificado:before { content: "\f107"; }
+.flaticon-equipo-1:before { content: "\f108"; }
+.flaticon-elearning:before { content: "\f109"; }
+.flaticon-baloncesto:before { content: "\f10a"; }
+.flaticon-baloncesto-1:before { content: "\f10b"; }
+.flaticon-baloncesto-2:before { content: "\f10c"; }
+.flaticon-pelota-de-baloncesto:before { content: "\f10d"; }
+.flaticon-playoff:before { content: "\f10e"; }
+.flaticon-baloncesto-3:before { content: "\f10f"; }
+.flaticon-hablar:before { content: "\f110"; }
+.flaticon-tactica:before { content: "\f111"; }
+.flaticon-television:before { content: "\f112"; }
+.flaticon-pelota-de-baloncesto-1:before { content: "\f113"; }
+.flaticon-entradas:before { content: "\f114"; }
+.flaticon-baloncesto-4:before { content: "\f115"; }
+.flaticon-jugadores-de-baloncesto:before { content: "\f116"; }
+.flaticon-jugador-de-baloncesto:before { content: "\f117"; }
+.flaticon-baloncesto-5:before { content: "\f118"; }
+.flaticon-baloncesto-6:before { content: "\f119"; }
+.flaticon-baloncesto-7:before { content: "\f11a"; }
+.flaticon-jugador-de-baloncesto-1:before { content: "\f11b"; }
+.flaticon-baloncesto-8:before { content: "\f11c"; }
+.flaticon-jugador-de-baloncesto-2:before { content: "\f11d"; }
+.flaticon-cancha-de-baloncesto-1:before { content: "\f11e"; }
+.flaticon-jugador-de-baloncesto-3:before { content: "\f11f"; }
+.flaticon-baloncesto-9:before { content: "\f120"; }
+.flaticon-baloncesto-10:before { content: "\f121"; }
+.flaticon-jugador-de-baloncesto-4:before { content: "\f122"; }
+.flaticon-jugador-de-baloncesto-5:before { content: "\f123"; }
+.flaticon-aro:before { content: "\f124"; }
+.flaticon-bolsa-de-deporte:before { content: "\f125"; }
+.flaticon-hablar-1:before { content: "\f126"; }
+.flaticon-estadio:before { content: "\f127"; }
+.flaticon-hora:before { content: "\f128"; }
+.flaticon-ubicacion:before { content: "\f129"; }
+.flaticon-television-1:before { content: "\f12a"; }
+.flaticon-sitio-web:before { content: "\f12b"; }
+.flaticon-uniforme:before { content: "\f12c"; }
+.flaticon-aplicacion:before { content: "\f12d"; }
+.flaticon-al-vapor:before { content: "\f12e"; }
+.flaticon-jugador:before { content: "\f12f"; }
+.flaticon-educacion:before { content: "\f130"; }
+.flaticon-equipo-2:before { content: "\f131"; }
+.flaticon-calendario:before { content: "\f132"; }
+.flaticon-baloncesto-13:before { content: "\f133"; }
+.flaticon-jugador-de-baloncesto-6:before { content: "\f134"; }
+.flaticon-jugador-de-baloncesto-7:before { content: "\f135"; }
+.flaticon-baloncesto-14:before { content: "\f136"; }
+.flaticon-pelota-de-baloncesto-3:before { content: "\f137"; }
+.flaticon-baloncesto-11:before { content: "\f138"; }
+.flaticon-cancha-de-baloncesto-2:before { content: "\f139"; }
+.flaticon-baloncesto-15:before { content: "\f13a"; }
+.flaticon-baloncesto-16:before { content: "\f13b"; }
+.flaticon-cancha-de-baloncesto:before { content: "\f13c"; }
+.flaticon-jugador-de-baloncesto-8:before { content: "\f13d"; }
+.flaticon-pelota-de-baloncesto-2:before { content: "\f13e"; }
+.flaticon-pizarron:before { content: "\f13f"; }
+.flaticon-educacion-1:before { content: "\f140"; }
+.flaticon-premio:before { content: "\f141"; }
+.flaticon-burbuja-de-dialogo:before { content: "\f142"; }
+.flaticon-boleto:before { content: "\f143"; }
+.flaticon-trofeo:before { content: "\f144"; }
+.flaticon-portapapeles:before { content: "\f145"; }
+.flaticon-pelota:before { content: "\f146"; }
+.flaticon-mente:before { content: "\f147"; }
+.flaticon-rueda-dentada:before { content: "\f148"; }
+.flaticon-baloncesto-12:before { content: "\f149"; }
+    
+    $font-Flaticon-libro-educativo: "\f100";
+    $font-Flaticon-estudiante: "\f101";
+    $font-Flaticon-mesa: "\f102";
+    $font-Flaticon-patio-de-recreo: "\f103";
+    $font-Flaticon-buscar: "\f104";
+    $font-Flaticon-presentacion: "\f105";
+    $font-Flaticon-equipo: "\f106";
+    $font-Flaticon-certificado: "\f107";
+    $font-Flaticon-equipo-1: "\f108";
+    $font-Flaticon-elearning: "\f109";
+    $font-Flaticon-baloncesto: "\f10a";
+    $font-Flaticon-baloncesto-1: "\f10b";
+    $font-Flaticon-baloncesto-2: "\f10c";
+    $font-Flaticon-pelota-de-baloncesto: "\f10d";
+    $font-Flaticon-playoff: "\f10e";
+    $font-Flaticon-baloncesto-3: "\f10f";
+    $font-Flaticon-hablar: "\f110";
+    $font-Flaticon-tactica: "\f111";
+    $font-Flaticon-television: "\f112";
+    $font-Flaticon-pelota-de-baloncesto-1: "\f113";
+    $font-Flaticon-entradas: "\f114";
+    $font-Flaticon-baloncesto-4: "\f115";
+    $font-Flaticon-jugadores-de-baloncesto: "\f116";
+    $font-Flaticon-jugador-de-baloncesto: "\f117";
+    $font-Flaticon-baloncesto-5: "\f118";
+    $font-Flaticon-baloncesto-6: "\f119";
+    $font-Flaticon-baloncesto-7: "\f11a";
+    $font-Flaticon-jugador-de-baloncesto-1: "\f11b";
+    $font-Flaticon-baloncesto-8: "\f11c";
+    $font-Flaticon-jugador-de-baloncesto-2: "\f11d";
+    $font-Flaticon-cancha-de-baloncesto-1: "\f11e";
+    $font-Flaticon-jugador-de-baloncesto-3: "\f11f";
+    $font-Flaticon-baloncesto-9: "\f120";
+    $font-Flaticon-baloncesto-10: "\f121";
+    $font-Flaticon-jugador-de-baloncesto-4: "\f122";
+    $font-Flaticon-jugador-de-baloncesto-5: "\f123";
+    $font-Flaticon-aro: "\f124";
+    $font-Flaticon-bolsa-de-deporte: "\f125";
+    $font-Flaticon-hablar-1: "\f126";
+    $font-Flaticon-estadio: "\f127";
+    $font-Flaticon-hora: "\f128";
+    $font-Flaticon-ubicacion: "\f129";
+    $font-Flaticon-television-1: "\f12a";
+    $font-Flaticon-sitio-web: "\f12b";
+    $font-Flaticon-uniforme: "\f12c";
+    $font-Flaticon-aplicacion: "\f12d";
+    $font-Flaticon-al-vapor: "\f12e";
+    $font-Flaticon-jugador: "\f12f";
+    $font-Flaticon-educacion: "\f130";
+    $font-Flaticon-equipo-2: "\f131";
+    $font-Flaticon-calendario: "\f132";
+    $font-Flaticon-baloncesto-13: "\f133";
+    $font-Flaticon-jugador-de-baloncesto-6: "\f134";
+    $font-Flaticon-jugador-de-baloncesto-7: "\f135";
+    $font-Flaticon-baloncesto-14: "\f136";
+    $font-Flaticon-pelota-de-baloncesto-3: "\f137";
+    $font-Flaticon-baloncesto-11: "\f138";
+    $font-Flaticon-cancha-de-baloncesto-2: "\f139";
+    $font-Flaticon-baloncesto-15: "\f13a";
+    $font-Flaticon-baloncesto-16: "\f13b";
+    $font-Flaticon-cancha-de-baloncesto: "\f13c";
+    $font-Flaticon-jugador-de-baloncesto-8: "\f13d";
+    $font-Flaticon-pelota-de-baloncesto-2: "\f13e";
+    $font-Flaticon-pizarron: "\f13f";
+    $font-Flaticon-educacion-1: "\f140";
+    $font-Flaticon-premio: "\f141";
+    $font-Flaticon-burbuja-de-dialogo: "\f142";
+    $font-Flaticon-boleto: "\f143";
+    $font-Flaticon-trofeo: "\f144";
+    $font-Flaticon-portapapeles: "\f145";
+    $font-Flaticon-pelota: "\f146";
+    $font-Flaticon-mente: "\f147";
+    $font-Flaticon-rueda-dentada: "\f148";
+    $font-Flaticon-baloncesto-12: "\f149";
