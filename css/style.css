@@ -1073,7 +1073,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px dotted #dee2e6;
-  list-style: none; }
+  list-style: none;}
   .categories li:last-child, .sidelink li:last-child {
     margin-bottom: 0;
     border-bottom: none;
@@ -1273,7 +1273,7 @@ h1, h2, h3, h4, h5,
     margin-bottom: 20px; }
 
   .rectangulo{
-    background: rgba(0, 0, 0, 0.6) /* Black background with 30% opacity */;
+    background: rgba(0, 0, 0, 0.3) /* Black background with 30% opacity */;
     padding: 1rem;
   }
 
@@ -1286,7 +1286,7 @@ h1, h2, h3, h4, h5,
  }
 
  .detalles{
-   color: #5CE0E8
+   color: #5CE0E8;
  }
 
  video {
