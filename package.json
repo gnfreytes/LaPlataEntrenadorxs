@@ -1,0 +1,25 @@
+{
+  "name": "LaPlataEntrenadorxs",
+  "version": "1.0.0",
+  "description": "Thank you for using our template!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnfreytes/LaPlataEntrenadorxs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnfreytes/LaPlataEntrenadorxs/issues"
+  },
+  "homepage": "https://github.com/gnfreytes/LaPlataEntrenadorxs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-mailgun-transport": "^2.0.2"
+  }
+}
